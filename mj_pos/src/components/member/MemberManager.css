@@ -1,0 +1,131 @@
+.member_manager_all{
+    background: #fff;
+}
+.member_manager_title{
+    font-size: 16px;
+    color: #262626;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.manager_search{
+    width: 100%;
+    font-size: 16px;
+    color: #262626;
+    margin-top: 20px;
+}
+
+.manager_type_state{
+    text-align: right;
+    margin-top: 3px;
+}
+
+.manager_input_order{
+    width: 69%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.manager_input_number{
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+}
+.manager_input_name{
+    width: 50%;
+    height: 32px;
+    text-align: left;
+    margin-left: 40px;
+}
+.manager_select_mobile{
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 6%;
+}
+
+.manager_date_span{
+    margin-left: 30px;
+}
+
+.manager_date_state{
+    width: 18%;
+    margin-left: 10px;
+    height: 32px;
+}
+.manager_range_picker{
+    width: 50%;
+    height: 32px;
+    margin-left: 1%;
+}
+
+.manager_select_charge{
+    width: 50%;
+    margin-left: 25px;
+}
+.manager_select_type{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.manager_col_4{
+    text-align: left;
+}
+
+.manager_info_more1{
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.manager_more1{
+    font-size: 14px;
+    color: #0c59f1;
+    margin-right: 6%;
+    cursor:pointer;  
+}
+
+.manager_more2{
+    font-size: 14px;
+    color: #0c59f1;
+    margin-right: 6%;
+    cursor:pointer;
+}
+
+.member_manager_table{
+    border-top: 12px solid #eef0f4;
+    border-left: 12px solid #eef0f4;
+    border-right: 12px solid #eef0f4;
+}
+
+.manager_table_info{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.manager_info_divider{
+    margin-top: 20px;
+    height: 10px;
+    margin-bottom: 2px;
+    background: #eef0f4;
+}
+
+#manager_id_up:hover{
+    color: #fd5c02;
+}
+#manager_id_down:hover{
+    color: #fd5c02;
+}
+
+.charge_spin{
+    margin-left: 48%;
+}
+
+
+
+
+

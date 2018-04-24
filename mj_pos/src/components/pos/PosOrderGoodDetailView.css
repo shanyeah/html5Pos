@@ -1,0 +1,24 @@
+
+.pos_order_detail_control {
+    background: white;
+    border-left: 1px solid #e8e8e8;
+    min-height: 440px;
+}
+
+.pos_order_detail_control_item {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+.pos_order_detail_control_item_title {
+    margin-left: 10px;
+}
+
+.pos_order_detail_control_item_price {
+    margin-right: 10px;
+    color: orange;
+    text-align:right;
+}

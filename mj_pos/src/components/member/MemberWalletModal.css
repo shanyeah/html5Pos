@@ -1,0 +1,35 @@
+
+.wallet_content{
+    height: 560px;
+    margin-bottom: 2px;
+}
+.wallet_info_divider{
+    margin-top: 0px;
+    margin-bottom:0px; 
+}
+.wallet_table_info{
+    height: 380px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.wallet_search{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wallet_date_state{
+    width: 15%;
+    margin-left: 5px;
+}
+.wallet_range_picker{
+    width: 65%;
+    margin-left: 10px;
+}
+.wallet_select_charge{
+    margin-left: 5px;
+}
+.wallet_spin{
+    margin-left:48%;
+}

@@ -1,0 +1,19 @@
+	.member_view {
+	    height: 100%;
+	}
+
+	.member_menu {
+	    width: 16%;
+	    background: #eef0f4;
+	}
+
+	.member_content {
+	    width: 84%;
+	    background: #ffffff;
+	}
+
+	.layout_menu{
+		margin-left: 10px;
+	}
+
+	

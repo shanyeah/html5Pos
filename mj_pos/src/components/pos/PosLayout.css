@@ -1,0 +1,19 @@
+.pos_layout_header {
+    position: fixed;
+    background: white;
+    box-shadow: 0 2px 8px #f0f1f2;
+    -webkit-box-shadow: 0 2px 8px #f0f1f2;
+    height: 64px;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.pos_layout {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+

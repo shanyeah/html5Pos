@@ -1,0 +1,15 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  background-color: white;
+  height: 100%;
+}
+
+.main {
+  background-color: white;
+  height: 100%;
+}

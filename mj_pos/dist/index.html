@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>链大侠收银系统</title><!--[if lte IE 10]>
+        <script src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,media-match/2.0.2/media.match.min.js"></script>
+        <![endif]--><script>(function (baseFontSize, fontscale) {
+                var _baseFontSize = baseFontSize || 100;
+                var _fontscale = fontscale || 1;
+                var win = window;
+                var doc = win.document;
+                var ua = navigator.userAgent;
+                var matches = ua.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i);
+                var UCversion = ua.match(/U3\/((\d+|\.){5,})/i);
+                var isUCHd = UCversion && parseInt(UCversion[1].split('.').join(''), 10) >= 80;
+                var isIos = navigator.appVersion.match(/(iphone|ipad|ipod)/gi);
+                var dpr = win.devicePixelRatio || 1;
+                if (!isIos && !(matches && matches[1] > 534) && !isUCHd) {
+                    // 如果非iOS, 非Android4.3以上, 非UC内核, 就不执行高清, dpr设为1;
+                    dpr = 1;
+                }
+                if (isIos && dpr == 3) {
+                    dpr = 2;
+                }
+                // var scale = 1 / dpr;
+                var scale = 1;
+                var metaEl = doc.querySelector('meta[name="viewport"]');
+                if (!metaEl) {
+                    metaEl = doc.createElement('meta');
+                    metaEl.setAttribute('name', 'viewport');
+                    doc.head.appendChild(metaEl);
+                }
+                metaEl.setAttribute('content', 'width=device-width,user-scalable=no,initial-scale=' + scale + ',maximum-scale=' + scale + ',minimum-scale=' + scale);
+                doc.documentElement.style.fontSize = _baseFontSize / 2 * dpr * _fontscale + 'px';
+                window.viewportScale = dpr;
+            })();
+            if (!window.Promise) {
+                document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+            }</script><link href="/pos/index.css?d03435cd42c0ee3eb8e8" rel="stylesheet"></head><style>#mj_loading {
+            margin-right: auto;
+            margin-left: auto; 
+            height:800px;
+            width:400px;
+            vertical-align:middle;
+            text-align:center;
+            line-height:800px;
+            font-size: 24px;
+        }</style><body><div id="root"><div id="mj_loading">加载中...</div></div><script type="text/javascript" src="/pos/index.js?d03435cd42c0ee3eb8e8"></script></body></html>

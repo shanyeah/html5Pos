@@ -1,0 +1,32 @@
+.pos_header {
+    display: flex;
+    width: 100%;
+    line-height: 64px;
+    height: 64px;
+    font-size: 20px;
+    background: white;
+}
+
+.pos_header_icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 17px;
+}
+
+.pos_header_menu {
+    margin-left: auto;
+    margin-right: 8px;
+    line-height: 62px;
+    font-size: 14px;
+}
+
+.pos_header_menu_title {
+    font-size: 16px;
+}
+
+.pos_header_menu_sub_title {
+    font-size: 16px;
+}
+

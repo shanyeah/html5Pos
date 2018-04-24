@@ -1,0 +1,26 @@
+.pos_settle_content {
+    padding: 8px
+}
+
+.pos_settle_menu_title {
+    font-size: 18px;
+}
+
+.pos_settle_title {
+    line-height: 44px;
+    height: 44px;
+    font-size: 24px;
+    text-align: center;
+    background: #f5f5f9;
+    font-weight:bold
+}
+
+.pos_settle_discount {
+    line-height: 44px;
+    height: 44px;
+    font-size: 24px;
+    text-align: center;
+    color: orange;
+    background: #f5f5f9;
+    font-weight:bold
+}

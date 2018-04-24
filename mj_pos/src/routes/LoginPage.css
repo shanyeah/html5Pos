@@ -1,0 +1,70 @@
+.normal {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header,.footer{ 
+	position:absolute; 
+	left:0; 
+	right:0; 
+	width:100%; 
+	z-index:99
+}
+.header{
+	top:0; 
+	height:60px; 
+	background:#426374 url(../assets/logo.png) no-repeat 0 center
+}
+
+.loginWraper{ 
+	position:absolute;
+	width:100%; 
+	left:0; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	z-index:1; 
+	background:#3283AC url(../assets/admin-login-bg.jpg) no-repeat center
+}
+
+.loginBox{ 
+	position:absolute; 
+	width:617px; 
+	height:330px; 
+	background:url(../assets/admin-loginform-bg.png) no-repeat; 
+	left:50%; 
+	top:50%; 
+	margin-left:-309px; 
+	margin-top:-184px; 
+	padding-top:38px
+}
+
+.formName{
+	margin-top: 30px;
+}
+
+.inputName,.password{
+	width:320px; 
+	height: 40px;
+}
+
+.formItem{
+	left:25%; 
+}
+
+.btSumbit{
+	left:25%; 
+	height: 40px;
+}
+
+.footer{ 
+	height:46px; 
+	line-height:46px; 
+	bottom:0; 
+	text-align:center; 
+	color:#fff; 
+	font-size:12px; 
+	background-color:#426374
+}

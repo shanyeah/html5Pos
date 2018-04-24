@@ -1,0 +1,29 @@
+.swift_view {
+    background: #f5f5f9;
+}
+
+.swift_info_view {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.swift_record_view {
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.swift_statistics_view {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.swift_statistics_dot {
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: -1px;
+    height: 8px;
+    width: 8px;
+}

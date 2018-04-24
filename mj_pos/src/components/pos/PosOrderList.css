@@ -1,0 +1,154 @@
+.pos_order {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.ant-list-header, .ant-list-footer {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ant-list-empty-text {
+    display: none;
+}
+
+.pos_order_header {
+    background: #ececec;
+    width: 100%;
+    height: 36px;
+}
+
+.pos_order_header_title {
+    margin-left: 12px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #5d5d5d;
+}
+
+.pos_order_header_clear {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #646464;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pos_order_scroll_view {
+    width: 100%;
+    overflow:auto;
+}
+
+.pos_order_list {
+    width: 100%;
+    flex: 1;
+}
+
+.pos_order_item {
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+
+.pos_order_item_title {
+    margin-left: 12px;
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+    max-width: 180px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+.pos_order_item_remark {
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+    max-width: 180px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+.pos_order_item_control {
+    display: flex;
+    margin-left: auto;
+    width: 100px;
+    height: 100%;
+    
+}
+
+.pos_order_item_remove {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pos_order_item_add {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pos_order_item_button {
+    width: 16px;
+    height: 16px;
+}
+
+.pos_order_item_number {
+    width: 100%;
+    height: 100%;
+    line-height: 54px;
+    color: #575757;
+    font-size: 14px;
+    text-align: center;
+}
+
+.pos_order_item_price {
+    margin-right: 6px;
+    height: 100%;
+    line-height: 54px;
+    color: rgb(240, 72, 100);
+    font-size: 16px;
+    text-align: right;
+
+}
+
+.pos_order_footer {
+    margin-top: auto;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #474747;
+}
+
+.pos_order_total {
+    margin-left: 12px;
+    font-size: 16px;
+    color: white;
+}
+
+.pos_order_pay {
+    background: #1ad450;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white;
+}
+
+.pos_order_pay:active {
+    background: gray;
+}
+

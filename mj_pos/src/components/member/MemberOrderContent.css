@@ -1,0 +1,68 @@
+
+.success_col_state{
+    width: 13%;
+    font-size: 16px;
+}
+
+.success_row_info{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:6px;
+    vertical-align: middle;
+}
+    
+	.success_success_name{
+		font-size: 16px;
+		color: #7e7e7e;
+		margin-left: 10px;
+	}
+
+	.member_info_money{
+		font-size: 16px;
+		color: #fd5e01;
+		margin-left: 10px;
+	}
+
+
+	.order_content_title{
+		padding-left: 26px;
+		margin-top: 0px;
+		color: #2b2b2b;
+		background: #eef0f4;
+	}
+
+	.success_row_title1{
+		padding-left: 26px;
+		margin-top: 20px;
+		color: #2b2b2b;
+		background: #eef0f4;
+	}
+
+
+    .member_bt_account{
+        margin-right: 30px;
+    }
+
+    .success_success_divider{
+	    height: 1px;
+	    margin-top: 20px;
+	    background: #eef0f4;
+	}
+	
+	.refunds_remark_span{
+		padding-left: 26px;
+		color: #2b2b2b;
+	}
+
+	.refunds_input_remark{
+		width: 76%;
+		font-size: 16px;
+		margin-left: 10px;
+
+	}
+
+
+
+
+

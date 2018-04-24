@@ -1,0 +1,39 @@
+.pos_goods_list_title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 2px #1890ff solid;
+    height: 20px;
+    line-height: 20px;
+    font: 14px;
+}
+
+.pos_category {
+    margin-top: 10px;
+}
+
+.pos_category_item {
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    border:1px solid #e8e8e8;
+    cursor:pointer;
+}
+
+.pos_category_item_selected {
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    border:1px solid #1890ff;
+    color: #1890ff;
+    cursor:pointer;
+}
+
+.pos_category_item_disable {
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    border:1px solid #e8e8e8;
+    color:#e8e8e8;
+    cursor:pointer;
+}

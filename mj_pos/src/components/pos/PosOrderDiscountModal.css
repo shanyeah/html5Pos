@@ -1,0 +1,25 @@
+.pos_order_discount_input {
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 460px;
+    height: 40px;
+    font-size: 24px;
+}
+
+.pos_order_discount_btn {
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: #1890ff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.pos_order_discount_btn.control {
+    background: gray;
+   
+}

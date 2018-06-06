@@ -1,0 +1,116 @@
+.room_content{
+    width: 100%;
+    height: 100%;
+    background: #EEF0F5;
+}
+.room_manager_title{
+    height: 50px;
+    font-size: 18px;
+    color: #111111;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    background: #ffffff;
+}
+
+.room_manager_refresh{
+    margin-right: 20px;
+}
+
+
+.room_list_grid{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.room_list_item{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.room_card_content{
+    height: 170px;
+}
+
+.room_item_card{
+    margin-bottom: 20px;
+}
+
+.room_card_title{
+    font-size: 18px;
+    color: #333333;
+}
+
+.room_card_price{
+    margin-left: 10px;
+}
+
+.room_card_member{
+    padding-top: 10px;
+    width: 100%;
+    margin-left: 24px;
+}
+
+.room_member_state{
+    font-size: 16px;
+}
+
+.room_member_idnumber{
+    width: 17%;
+    font-size: 16px;
+}
+
+.room_member_name{
+    font-size: 16px;
+    color: #7e7e7e;
+    margin-left: 6px;
+
+}
+
+.room_member_money{
+    margin-left: 6px;
+    font-size: 16px;
+    color: #fd5e01;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.manager_info_more1{
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.manager_info_divider{
+    margin-top: 20px;
+    height: 10px;
+    margin-bottom: 2px;
+    background: #eef0f4;
+}
+
+#manager_id_up:hover{
+    color: #fd5c02;
+}
+
+
+
+
+
+
